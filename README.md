@@ -20,6 +20,8 @@ Run the nodes using the following commands (assuming that the total nodes are 3)
 First node:
 ```
 SECRET="NODE0" P2P_PORT=5000 HTTP_PORT=3000 node app
+
+set SECRET=NODE0 && set P2P_PORT=5000 && set HTTP_PORT=3000 && node app
 ```
 
 Second node:
